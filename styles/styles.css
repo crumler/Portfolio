@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
+
+body, html {
+    /* background-color: #0b003b; */
+    background: rgba(20,13,78,1);
+    background: -moz-linear-gradient(left, rgba(20,13,78,1) 0%, rgba(13,9,62,1) 9%, rgba(7,4,32,1) 59%, rgba(4,1,14,1) 89%, rgba(12,7,64,1) 99%, rgba(1,14,3,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(20,13,78,1)), color-stop(9%, rgba(13,9,62,1)), color-stop(59%, rgba(7,4,32,1)), color-stop(89%, rgba(4,1,14,1)), color-stop(99%, rgba(12,7,64,1)), color-stop(100%, rgba(1,14,3,1)));
+    background: -webkit-linear-gradient(left, rgba(20,13,78,1) 0%, rgba(13,9,62,1) 9%, rgba(7,4,32,1) 59%, rgba(4,1,14,1) 89%, rgba(12,7,64,1) 99%, rgba(1,14,3,1) 100%);
+    background: -o-linear-gradient(left, rgba(20,13,78,1) 0%, rgba(13,9,62,1) 9%, rgba(7,4,32,1) 59%, rgba(4,1,14,1) 89%, rgba(12,7,64,1) 99%, rgba(1,14,3,1) 100%);
+    background: -ms-linear-gradient(left, rgba(20,13,78,1) 0%, rgba(13,9,62,1) 9%, rgba(7,4,32,1) 59%, rgba(4,1,14,1) 89%, rgba(12,7,64,1) 99%, rgba(1,14,3,1) 100%);
+    background: linear-gradient(to right, rgba(20,13,78,1) 0%, rgba(13,9,62,1) 9%, rgba(7,4,32,1) 59%, rgba(4,1,14,1) 89%, rgba(12,7,64,1) 99%, rgba(1,14,3,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#140d4e', endColorstr='#010e03', GradientType=1 );
+    font-family: 'Miriam Libre', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    z-index: 1;
+    color: white;
+    font-size: 350%;
+}
+
+p {
+    padding: 9px;
+}
+
+button {
+    margin: 5px;
+}
+
+a:link, a:visited, a:hover {
+    color: #0b003b;
+    text-decoration: none;
+}
+
+.headerContain {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centeredName {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 3em;
+}
+
+#headerImage {
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: block;
+    height: 30em;
+    width: 100%;
+    object-position: 50% 50%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    padding: 9px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    padding: 9px;
+}
+
+.firstRow {
+    padding: 1em;
+}
+
+a {
+    color: white;
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+li {
+    color: white;
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#wrapper {
+    display: grid;
+    color: white;
+    grid-template-columns: auto;
+    font-family: 'Miriam Libre', sans-serif;
+    margin-top: 100px;
+}
+
+.col-md-8 {
+    font-family: 'Miriam Libre', sans-serif;
+    border-radius: 15px;
+}
+
+#About {
+    /* align-self: flex-start; */
+    background-color: #003B29;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+    -webkit-box-shadow: -1px 10px 12px 0px rgba(48,59,0,1);
+    -moz-box-shadow: -1px 10px 12px 0px rgba(48,59,0,1);
+    box-shadow: -1px 10px 12px 0px rgba(48,59,0,1);
+}
+
+#moreAbout {
+    background-color: #303B00;
+    color: white;
+    text-align: center;
+    margin-top: 3em;
+    border-radius: 15px;
+    font-size: 18px;
+    align-self: flex-start;
+    width: 80%;
+    -webkit-box-shadow: -1px 10px 12px 0px rgba(0,59,41,1);
+    -moz-box-shadow: -1px 10px 12px 0px rgba(0,59,41,1);
+    box-shadow: -1px 10px 12px 0px rgba(0,59,41,1);
+}
+
+#covidDiv {
+    background-color: #ff4500;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 3em;
+    -webkit-box-shadow: -16px 11px 43px -8px rgba(1,182,254,1);
+    -moz-box-shadow: -16px 11px 43px -8px rgba(1,182,254,1);
+    box-shadow: -16px 11px 43px -8px rgba(1,182,254,1);
+}
+
+#megaManDiv {
+    background-color: #01B6FE;
+    color: white;
+    align-content: center;
+    align-self: flex-start;
+    border-radius: 15px;
+    margin-top: 8em;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 16px 11px 43px -8px rgba(255,69,0,1);
+    -moz-box-shadow: 16px 11px 43px -8px rgba(255,69,0,1);
+    box-shadow: 16px 11px 43px -8px rgba(255,69,0,1);
+}
+
+#megaManPic {
+    height: 40%;
+    width: 40%;
+    border-radius: 45px 15px 45px 15px;
+}
+
+form {
+    color: white;
+}
+
+#staticLayout {
+    background-color: #303B00;
+    color: white;
+    text-align: center;
+    margin-top: 3em;
+    border-radius: 15px;
+    font-size: 18px;
+    align-self: flex-start;
+    width: 45%;
+    -webkit-box-shadow: 16px 11px 43px 16px rgba(0,59,41,1);
+    -moz-box-shadow: 16px 11px 43px 16px rgba(0,59,41,1);
+    box-shadow: 16px 11px 43px 16px rgba(0,59,41,1);
+}
+
+#nasa {
+    background-color: #003B29;
+    margin-top: 3em;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 45%;
+    padding: 5px;
+    -webkit-box-shadow: -16px 11px 43px 16px rgba(48,59,0,0.76);
+    -moz-box-shadow: -16px 11px 43px 16px rgba(48,59,0,0.76);
+    box-shadow: -16px 11px 43px 16px rgba(48,59,0,0.76);
+}
+
+input[type = 'text'], input[type = 'email'], textarea {
+    width: 300px;
+}
+
+label {
+    padding-top: 6px;
+}
