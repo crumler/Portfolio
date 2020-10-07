@@ -21,6 +21,14 @@ h1 {
     font-size: 350%;
 }
 
+#profilePicture {
+    height: 340px;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 45px;
+}
+
 p {
     padding: 9px;
 }
@@ -100,7 +108,7 @@ img {
     color: white;
     grid-template-columns: auto;
     font-family: 'Miriam Libre', sans-serif;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .col-md-8 {
