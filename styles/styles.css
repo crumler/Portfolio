@@ -57,11 +57,16 @@ a:link, a:visited, a:hover {
     object-position: 50% 50%;
 }
 
-footer {
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 5em;
+}
+
+#foot {
+    text-align: center;
+    color: white;
 }
 
 h2 {
