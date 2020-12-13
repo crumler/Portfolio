@@ -138,6 +138,17 @@ img {
     box-shadow: -1px 10px 12px 0px rgba(0,59,41,1);
 }
 
+#playlist {
+    background-color: #1DB954;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 3em;
+    -webkit-box-shadow: 0px 10px 17px 0px rgba(29,185,84,0.67);
+    -moz-box-shadow: 0px 10px 17px 0px rgba(29,185,84,0.67);
+    box-shadow: 0px 10px 17px 0px rgba(29,185,84,0.67);
+}
+
 #covidDiv {
     background-color: #ff4500;
     border-radius: 15px;
